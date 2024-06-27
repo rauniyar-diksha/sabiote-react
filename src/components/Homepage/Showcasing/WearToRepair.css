@@ -1,0 +1,75 @@
+.ware-to-repair-box {
+    padding: 27px 0;
+}
+.ware-to-repair-box h1 {
+    text-align: center;
+    color: #072254;
+    font-size: 26px;
+}
+.ware-to-repair-box {
+    padding: 27px 0;
+    width: 80%;
+    max-width: 1080px;
+    margin: auto;
+}
+.cards-containing-box {
+    padding: 27px 0;
+}
+.cards-containing-box .card-box {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 6.6rem;
+    padding-bottom: 2rem;
+    padding-left: 22px;
+    padding-right: 22px;
+    color: #fff;
+    width: 22.75%;
+    width: 22.75%;
+    border-radius: 5px;
+    margin-right: 3%;
+
+}
+.cards-containing-box {
+    padding: 27px 0;
+    display: flex;
+}
+.cards-containing-box .card-box:nth-child(1) {
+    visibility: hidden;
+}
+.cards-containing-box .card-box h2 {
+    font-size: 23px;
+    margin: 0;
+    padding-bottom: 10px;
+    line-height: 1em;
+}
+.cards-containing-box .card-box p {
+    margin: 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ffffff45;
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+.cards-containing-box .card-box a {
+    padding: .3em 1em .3em 0;
+    line-height: 1.7em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+@media(max-width:1024px){
+    .cards-containing-box {
+        flex-wrap: wrap;
+    }
+    .cards-containing-box .card-box:nth-child(1) {
+        display: none;
+    }
+    .cards-containing-box .card-box {
+        width: 100%;
+        margin: 10px;
+    }
+    .ware-to-repair-box {
+        width: 100%;
+    }
+}
